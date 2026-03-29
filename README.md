@@ -1,7 +1,7 @@
 # 📊 Measures of Association in Epidemiology
 ### RR · RD · OR · NNT · IRR · IRD
 **Tutorial Series: Epidemiology with Python**
-*Desy Nuryunarsih — Research Fellow, University of St Andrews*
+*Desy Nuryunarsih — Researcher, University of St Andrews*
 
 ---
 
