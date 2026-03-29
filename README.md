@@ -53,12 +53,12 @@ The dataset is **fully simulated** inside the notebook using `numpy`. No externa
 
 | # | Measure | Formula | Plain English |
 |---|---------|---------|---------------|
-| 1 | **Risk Ratio (RR)** | Pr(Y=1\|A=1) / Pr(Y=1\|A=0) | How many times more likely? |
-| 2 | **Risk Difference (RD)** | Pr(Y=1\|A=1) − Pr(Y=1\|A=0) | What is the extra absolute risk? |
-| 3 | **Odds Ratio (OR)** | Odds(A=1) / Odds(A=0) | Ratio of odds — used in case-control & logistic regression |
-| 4 | **Number Needed to Harm (NNH)** | 1 / \|RD\| | How many smokers produce 1 extra cancer case? |
-| 5 | **Incidence Rate Ratio (IRR)** | (a/T₁) / (b/T₀) | Rate ratio accounting for person-time |
-| 6 | **Incidence Rate Difference (IRD)** | (a/T₁) − (b/T₀) | Absolute rate difference per person-week |
+| 1 | **Risk Ratio (RR)** | Pr(Y=1\|A=1) / Pr(Y=1\|A=0) | How many times more likely? https://www.cancer.gov/publications/dictionaries/cancer-terms/def/risk-ratio|
+| 2 | **Risk Difference (RD)** | Pr(Y=1\|A=1) − Pr(Y=1\|A=0) | What is the extra absolute risk? https://pmc.ncbi.nlm.nih.gov/articles/PMC5300861/|
+| 3 | **Odds Ratio (OR)** | Odds(A=1) / Odds(A=0) | Ratio of odds — used in case-control & logistic regression https://www.cancer.gov/publications/dictionaries/cancer-terms/def/odds-ratio |
+| 4 | **Number Needed to Harm (NNH)** | 1 / \|RD\| | How many smokers produce 1 extra cancer case? https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/number-needed-to-harm|
+| 5 | **Incidence Rate Ratio (IRR)** | (a/T₁) / (b/T₀) | Rate ratio accounting for person-time https://academic.oup.com/aje/article-abstract/167/5/517/212297?redirectedFrom=PDF|
+| 6 | **Incidence Rate Difference (IRD)** | (a/T₁) − (b/T₀) | Absolute rate difference per person-week https://pubmed.ncbi.nlm.nih.gov/20606039/|
 
 ---
 
