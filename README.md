@@ -53,12 +53,12 @@ The dataset is **fully simulated** inside the notebook using `numpy`. No externa
 
 | # | Measure | Formula | Plain English |
 |---|---------|---------|---------------|
-| 1 | **Risk Ratio (RR)** | Pr(Y=1\|A=1) / Pr(Y=1\|A=0) | How many times more likely? https://www.cancer.gov/publications/dictionaries/cancer-terms/def/risk-ratio|
-| 2 | **Risk Difference (RD)** | Pr(Y=1\|A=1) − Pr(Y=1\|A=0) | What is the extra absolute risk? https://pmc.ncbi.nlm.nih.gov/articles/PMC5300861/|
-| 3 | **Odds Ratio (OR)** | Odds(A=1) / Odds(A=0) | Ratio of odds — used in case-control & logistic regression https://www.cancer.gov/publications/dictionaries/cancer-terms/def/odds-ratio |
-| 4 | **Number Needed to Harm (NNH)** | 1 / \|RD\| | How many smokers produce 1 extra cancer case? https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/number-needed-to-harm|
-| 5 | **Incidence Rate Ratio (IRR)** | (a/T₁) / (b/T₀) | Rate ratio accounting for person-time https://academic.oup.com/aje/article-abstract/167/5/517/212297?redirectedFrom=PDF|
-| 6 | **Incidence Rate Difference (IRD)** | (a/T₁) − (b/T₀) | Absolute rate difference per person-week https://pubmed.ncbi.nlm.nih.gov/20606039/|
+| 1 | **Risk Ratio (RR)** | Pr(Y=1\|A=1) / Pr(Y=1\|A=0) | How many times more likely are smokers to get lung cancer than non-smokers?https://www.cancer.gov/publications/dictionaries/cancer-terms/def/risk-ratio|
+| 2 | **Risk Difference (RD)** | Pr(Y=1\|A=1) − Pr(Y=1\|A=0) | How many extra percentage points of lung cancer risk does smoking add? https://pmc.ncbi.nlm.nih.gov/articles/PMC5300861/|
+| 3 | **Odds Ratio (OR)** | Odds(A=1) / Odds(A=0) | How do the odds of lung cancer compare between smokers and non-smokers?, Ratio of odds — used in case-control & logistic regression https://www.cancer.gov/publications/dictionaries/cancer-terms/def/odds-ratio |
+| 4 | **Number Needed to Harm (NNH)** | 1 / \|RD\| | How many people need to smoke to produce one extra lung cancer case? https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/number-needed-to-harm|
+| 5 | **Incidence Rate Ratio (IRR)** | (a/T₁) / (b/T₀) | How much higher is the rate of lung cancer per week in smokers vs non-smokers?Rate ratio accounting for person-time https://academic.oup.com/aje/article-abstract/167/5/517/212297?redirectedFrom=PDF|
+| 6 | **Incidence Rate Difference (IRD)** | How many extra lung cancer cases per person-week does smoking cause?(a/T₁) − (b/T₀) | Absolute rate difference per person-week https://pubmed.ncbi.nlm.nih.gov/20606039/|
 
 ---
 
@@ -110,17 +110,14 @@ jupyter notebook Measures_in_Epidemiology_Smoking.ipynb
 
 ## 📚 References
 
-- Zivich PN et al. *zEpid: An epidemiology toolbox in Python.* JOSS, 2022.
-- Rothman KJ, Greenland S, Lash TL. *Modern Epidemiology*, 3rd edition.
-- Altman DG. *Confidence intervals for the number needed to treat.* BMJ, 1998.
-
+Indonesian context — Kretek cigarettes: In Indonesia, over 90% of smokers smoke kretek — clove cigarettes made from a blend of tobacco, cloves, and flavouring sauce. Although often perceived as a natural or safer alternative, a systematic review by Nuryunarsih, Lewis & Langley (Nicotine & Tobacco Research, 2021) found that kretek are associated with lung cancer, cardiovascular disease, asthma, and oral diseases — and are at least as harmful as regular cigarettes. The measures we calculate in this tutorial apply equally to kretek exposur
 ---
 
 ## 👩‍🔬 Author
 
 **Desy Nuryunarsih**
-Research Fellow, University of St Andrews
-*Tutorial Series: Epidemiology with Python*
+Researcher, University of St Andrews
+*Tutorial Series: Epidemiology with Python :*
 
 ---
 
